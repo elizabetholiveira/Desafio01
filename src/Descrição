@@ -1,0 +1,9 @@
+Desafio 01:
+
+- Rceber um número do usuário
+- Gerar um número aleatório
+- Comparar com a resposta do usuário:
+    - Se a resposta estiver correta: usuário ganha 10 pontos!
+    - Se a resposta for +1 ou -1 de diferença: usuário ganha 5 pontos
+    - Se a resposta estiver errada: usuário perde
+- Exibir a pontuação no final
