@@ -72,7 +72,7 @@ public class EntregaMax {
                     pontos = pontos + 5;
                     quase.add(numeroAleat);
                     System.out.println("----------");
-                } else {
+                } if ((numero != numeroAleat) && ((numero + 1) != numeroAleat) && ((numero - 1) != numeroAleat)) {
                     System.out.println("Sinto muito! Não foi dessa vez! Boa sorte na próxima!");
                     pontos = pontos + 0;
                     erros.add(numeroAleat);
